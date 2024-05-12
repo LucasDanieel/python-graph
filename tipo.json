@@ -1,0 +1,58 @@
+[
+    {
+      "tipo": "ATROPELAMENTO COM ANIMAIS",
+      "total": "482"
+    },
+    {
+      "tipo": "ATROPELAMENTO COM PEDESTRE",
+      "total": "785"
+    },
+    {
+      "tipo": "CAPOTAMENTO",
+      "total": "766"
+    },
+    {
+      "tipo": "CHOQUE",
+      "total": "5274"
+    },
+    {
+      "tipo": "COLISAO",
+      "total": "7474"
+    },
+    {
+      "tipo": "COLISAO FRONTAL",
+      "total": "3182"
+    },
+    {
+      "tipo": "COLISAO LATERAL",
+      "total": "9665"
+    },
+    {
+      "tipo": "COLISAO TRANSVERSAL",
+      "total": "16047"
+    },
+    {
+      "tipo": "COLISAO TRASEIRA",
+      "total": "8050"
+    },
+    {
+      "tipo": "ENGAVETAMENTO",
+      "total": "539"
+    },
+    {
+      "tipo": "NAO INFORMADO",
+      "total": "22008"
+    },
+    {
+      "tipo": "OUTROS ACIDENTES DE TRANSITO",
+      "total": "21093"
+    },
+    {
+      "tipo": "QUEDA",
+      "total": "3485"
+    },
+    {
+      "tipo": "TOMBAMENTO",
+      "total": "720"
+    }
+  ]
