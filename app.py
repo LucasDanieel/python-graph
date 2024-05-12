@@ -4,6 +4,15 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
+hide_st_style = """
+            <style>
+            ##MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+"""
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 col1, col2 = st.columns(2)
 (col3,) = st.columns(1)
 
@@ -16,8 +25,20 @@ col1, col2 = st.columns(2)
 # for ano, d in data_ano:
 #     df_ano.append({"ano": ano, "total": d["ano_acidente"].count()})
 
+
 # for tipo, t in data_tipo:
 #     df_tipo.append({"tipo": tipo, "total": t["tp_acidente"].count()})
+@st.cache_data
+def load_ano():
+    data = pd.read_json("./ano.json")
+    return data
+
+
+@st.cache_data
+def load_tipo():
+    data = pd.read_json("./tipo.json")
+    return data
+
 
 data_ano = pd.read_json("./ano.json")
 data_tipo = pd.read_json("./tipo.json")
